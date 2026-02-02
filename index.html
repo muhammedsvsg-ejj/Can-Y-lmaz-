@@ -1,0 +1,58 @@
+<style>
+.container {
+    text-align: center;
+}
+
+/* ÜST YAZI */
+.title1 {
+    font-size: 48px;
+    background: linear-gradient(90deg, #00ff99, #00ccff, #00ff99);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: renk1 4s infinite linear, titreme 0.12s infinite;
+}
+
+/* TELEGRAM YAZISI */
+.title2 {
+    font-size: 48px;
+    background: linear-gradient(90deg, #ff00ff, #ffcc00, #ff00ff);
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: renk2 3s infinite linear, titreme 0.12s infinite;
+}
+
+@keyframes renk1 {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+@keyframes renk2 {
+    0% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+/* TİTREŞİM */
+@keyframes titreme {
+    0% { transform: translate(0,0); }
+    25% { transform: translate(1px,-1px); }
+    50% { transform: translate(-1px,1px); }
+    75% { transform: translate(1px,1px); }
+    100% { transform: translate(0,0); }
+}
+
+a {
+    text-decoration: none;
+}
+</style>
+
+<div class="container">
+    <h1 class="title1">𝐂𝐚𝐧 𝐘ı𝐥𝐦𝐚𝐳</h1>
+
+    <a href="https://t.me/zorbaAllah" target="_blank">
+        <h1 class="title2">Telegram</h1>
+    </a>
+
+    <div class="small">© 2026</div>
+</div>
